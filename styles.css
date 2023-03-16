@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	color: #000000;
+}
+body {
+	background-color: #ECE9D8;
+}
+#login {
+	height: 150px;
+	width: 400px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.box {
+	background-color: #F6F5F2;
+	height: 20px;
+	width: 300px;
+	border: 1px solid #7B99E1;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#login #form1 label {
+	width: 150px;
+	display: block;
+	float: left;
+	margin: 5px;
+	text-align: right;
+	height: 16px;
+	padding-top: 4px;
+}
+#login #form1 input {
+	color: #000000;
+	margin: 5px;
+	clear: left;
+}
+#login legend {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background-color: #FBFBFC;
+	border: 1px solid #999999;
+	height: 20px;
+	padding: 5px;
+	margin-left: 10px;
+}
+#login fieldset {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FBFBFC;
+	height: 130px;
+}
+#login #form1 #entrar {
+	float: right;
+	margin-right: 80px;
+}
+#container {
+	width: 960px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	border: 1px solid #7480DC;
+	background-color: #F6F6F3;
+	overflow: hidden;
+}
+#container h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #D8E4F8;
+	background-color: #7D9BE3;
+	display: block;
+	text-indent: 20px;
+	border: 1px solid #7F9DB9;
+}
+#container #listado {
+	padding: 5px;
+}
+#container #listado .item {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #333333;
+	border: 1px solid #7F9DB9;
+	font-size: 12px;
+	width: 98%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding: 10px;
+	overflow: hidden;
+}
+h2 {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #81A7E8;
+	color: #316AC5;
+}
+#container .col_izq {
+	float: left;
+	width: 110px;
+	}
+#container .col_der {
+	float:right;
+	width: 800px;
+	}
+.foto {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	border: 1px solid #7F9FE6;
+}
+.descripcion {
+	float: right;
+	height: 100px;
+	width: 800px;
+	background-color: #FFFFFF;
+	padding: 5px;
+	border: 1px solid #7F9DB9;
+}
+.enlace {
+	float: right;
+	width: 800px;
+	background-color: #CCD8E6;
+	padding: 5px;
+}
+.precio {
+	float: left;
+	width: 100px;
+	background-color: #B1C3D9;
+	padding: 5px;
+	font-weight: bold;
+	text-align:center;
+}
+#container .header {
+	background-color: #8B8B8B;
+	text-align: right;
+	padding-right: 20px;
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+}
+#container #seleccion {
+	padding-left: 20px;
+}
+.modificar, .borrar {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: #FFC;
+	float:right;
+	padding-top:5px;
+	height: 25px;
+	width: 100px;
+	border: 1px solid #666;
+	text-align:center;
+}
+.borrar {
+	background-color: #F66;
+	 
+}
+.celda {
+	float: left;
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+	width:135px;
+	text-align:center
+	
+}
